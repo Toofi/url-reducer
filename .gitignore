@@ -1,2 +1,6 @@
 modules/firebase-config.js
 notes.txt
+node_modules
+package-lock.json
+package.json
+.eslintrc.js
