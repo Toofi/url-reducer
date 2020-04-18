@@ -14,7 +14,7 @@ export function setData() {
         code: hexCode,
         timestamp: Date.now()
     });
-    let shrinkedUrl = document.getElementById('shrinkedUrl').innerHTML = "eteinsetrallume.com/href/?"+hexCode;
+    let shrinkedUrl = document.getElementById('shrinkedUrl').innerHTML = "127.0.0.1:5500/href/?"+hexCode;
 
 }
 
@@ -26,5 +26,5 @@ export function getData() {
     const urlToRedirect = (snapshot.val() && snapshot.val().url) || 'Anonymous';
     document.location.href = urlToRedirect;
   });
-  
+
 }
