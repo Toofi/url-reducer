@@ -9,15 +9,16 @@
 </head>
 
 <body>
-    <h1>Url-reducer</h1>
-    <form method="post" action="index.html">
-        <label>Veuillez entrer l'url à réduire
-            <input type="url" id="urlValue" autofocus>
-        </label>
-        <button type="button" id="button">Shrink it !</button>
-    </form>
-
-    <div id="shrinkedUrl"></div>
+    <div class="card">
+        <h1 class="card-header">Url-reducer</h1>
+        <form class="form" method="post" action="index.html">
+            <label>Veuillez entrer l'url à réduire<br />
+                <input class="input" type="url" id="urlValue" autofocus>
+            </label>
+            <button type="button" id="button">Réduire l'url</button>
+        </form>
+        <span id="shrinkedUrl"></span>
+    </div>
 </body>
 
 <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase.js"></script>

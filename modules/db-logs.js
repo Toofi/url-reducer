@@ -14,7 +14,7 @@ export function setData () {
     code: hexCode,
     timestamp: Date.now()
   })
-  document.getElementById('shrinkedUrl').innerHTML = '127.0.0.1:5500/href/?' + hexCode
+  document.getElementById('shrinkedUrl').innerHTML = 'Voici l\'url : <br />www.eteinsetrallume.com/href/?' + hexCode
 }
 
 export function getData () {
