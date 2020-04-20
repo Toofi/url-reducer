@@ -76,7 +76,7 @@ button {
   /* position: absolute; */
   width: 10em;
   height: 2.5em;
-  /* left: 32.5%; */
+  margin-left: 2em;
 
   font-family: PoppinsSemiBold;
   background-color: #37392e;
@@ -116,4 +116,6 @@ button:hover {
 
   font-family: 'PoppinsRegular';
   font-size: 18px;
+
+  padding-left: 0.5em;
 }
