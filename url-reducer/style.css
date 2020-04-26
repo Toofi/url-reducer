@@ -84,7 +84,7 @@ button {
   border: none;
 
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.15s cubic-bezier(.25,.8,.25,1);
 
   margin-top: 10px;
 }
@@ -118,4 +118,31 @@ button:hover {
   font-size: 18px;
 
   padding-left: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  label {
+    padding: 0;
+  }
+
+  button {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  #shrinkedUrl {
+    font-size: 16px;
+  }
 }
